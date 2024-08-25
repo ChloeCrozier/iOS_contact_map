@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		39CBFCB72C7AE1CE00EB122C /* ContactMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CBFCB62C7AE1CE00EB122C /* ContactMapApp.swift */; };
-		39CBFCB92C7AE1CE00EB122C /* ContentMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CBFCB82C7AE1CE00EB122C /* ContentMapView.swift */; };
+		39CBFCB92C7AE1CE00EB122C /* ContactMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CBFCB82C7AE1CE00EB122C /* ContactMapView.swift */; };
 		39CBFCBB2C7AE1D000EB122C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39CBFCBA2C7AE1D000EB122C /* Assets.xcassets */; };
 		39CBFCBE2C7AE1D000EB122C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39CBFCBD2C7AE1D000EB122C /* Preview Assets.xcassets */; };
 		39CBFCC52C7B6DAF00EB122C /* ContactMapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CBFCC42C7B6DAE00EB122C /* ContactMapModel.swift */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		39CBFCB32C7AE1CE00EB122C /* contact_map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = contact_map.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39CBFCB62C7AE1CE00EB122C /* ContactMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactMapApp.swift; sourceTree = "<group>"; };
-		39CBFCB82C7AE1CE00EB122C /* ContentMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentMapView.swift; sourceTree = "<group>"; };
+		39CBFCB82C7AE1CE00EB122C /* ContactMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactMapView.swift; sourceTree = "<group>"; };
 		39CBFCBA2C7AE1D000EB122C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39CBFCBD2C7AE1D000EB122C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		39CBFCC42C7B6DAE00EB122C /* ContactMapModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactMapModel.swift; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				39CBFCB62C7AE1CE00EB122C /* ContactMapApp.swift */,
-				39CBFCB82C7AE1CE00EB122C /* ContentMapView.swift */,
+				39CBFCB82C7AE1CE00EB122C /* ContactMapView.swift */,
 				39CBFCC42C7B6DAE00EB122C /* ContactMapModel.swift */,
 				39CBFCC62C7B6DC500EB122C /* ContactMapController.swift */,
 				39CBFCBA2C7AE1D000EB122C /* Assets.xcassets */,
@@ -143,7 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39CBFCB92C7AE1CE00EB122C /* ContentMapView.swift in Sources */,
+				39CBFCB92C7AE1CE00EB122C /* ContactMapView.swift in Sources */,
 				39CBFCB72C7AE1CE00EB122C /* ContactMapApp.swift in Sources */,
 				39CBFCC52C7B6DAF00EB122C /* ContactMapModel.swift in Sources */,
 				39CBFCC72C7B6DC500EB122C /* ContactMapController.swift in Sources */,
@@ -283,6 +283,7 @@
 				DEVELOPMENT_TEAM = 639434M683;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSContactsUsageDescription = "This app requires access to your contacts to map phone numbers geographically.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -312,6 +313,7 @@
 				DEVELOPMENT_TEAM = 639434M683;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSContactsUsageDescription = "This app requires access to your contacts to map phone numbers geographically.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
