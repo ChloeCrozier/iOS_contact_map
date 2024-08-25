@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct contact_mapApp: App {
+struct ContactMapApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContactMapView()
         }
     }
 }

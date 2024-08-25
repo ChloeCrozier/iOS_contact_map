@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		39CBFCB72C7AE1CE00EB122C /* contact_mapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CBFCB62C7AE1CE00EB122C /* contact_mapApp.swift */; };
-		39CBFCB92C7AE1CE00EB122C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CBFCB82C7AE1CE00EB122C /* ContentView.swift */; };
+		39CBFCB72C7AE1CE00EB122C /* ContactMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CBFCB62C7AE1CE00EB122C /* ContactMapApp.swift */; };
+		39CBFCB92C7AE1CE00EB122C /* ContentMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CBFCB82C7AE1CE00EB122C /* ContentMapView.swift */; };
 		39CBFCBB2C7AE1D000EB122C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39CBFCBA2C7AE1D000EB122C /* Assets.xcassets */; };
 		39CBFCBE2C7AE1D000EB122C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39CBFCBD2C7AE1D000EB122C /* Preview Assets.xcassets */; };
+		39CBFCC52C7B6DAF00EB122C /* ContactMapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CBFCC42C7B6DAE00EB122C /* ContactMapModel.swift */; };
+		39CBFCC72C7B6DC500EB122C /* ContactMapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CBFCC62C7B6DC500EB122C /* ContactMapController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		39CBFCB32C7AE1CE00EB122C /* contact_map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = contact_map.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		39CBFCB62C7AE1CE00EB122C /* contact_mapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contact_mapApp.swift; sourceTree = "<group>"; };
-		39CBFCB82C7AE1CE00EB122C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		39CBFCB62C7AE1CE00EB122C /* ContactMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactMapApp.swift; sourceTree = "<group>"; };
+		39CBFCB82C7AE1CE00EB122C /* ContentMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentMapView.swift; sourceTree = "<group>"; };
 		39CBFCBA2C7AE1D000EB122C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39CBFCBD2C7AE1D000EB122C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		39CBFCC42C7B6DAE00EB122C /* ContactMapModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactMapModel.swift; sourceTree = "<group>"; };
+		39CBFCC62C7B6DC500EB122C /* ContactMapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactMapController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,10 @@
 		39CBFCB52C7AE1CE00EB122C /* contact_map */ = {
 			isa = PBXGroup;
 			children = (
-				39CBFCB62C7AE1CE00EB122C /* contact_mapApp.swift */,
-				39CBFCB82C7AE1CE00EB122C /* ContentView.swift */,
+				39CBFCB62C7AE1CE00EB122C /* ContactMapApp.swift */,
+				39CBFCB82C7AE1CE00EB122C /* ContentMapView.swift */,
+				39CBFCC42C7B6DAE00EB122C /* ContactMapModel.swift */,
+				39CBFCC62C7B6DC500EB122C /* ContactMapController.swift */,
 				39CBFCBA2C7AE1D000EB122C /* Assets.xcassets */,
 				39CBFCBC2C7AE1D000EB122C /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39CBFCB92C7AE1CE00EB122C /* ContentView.swift in Sources */,
-				39CBFCB72C7AE1CE00EB122C /* contact_mapApp.swift in Sources */,
+				39CBFCB92C7AE1CE00EB122C /* ContentMapView.swift in Sources */,
+				39CBFCB72C7AE1CE00EB122C /* ContactMapApp.swift in Sources */,
+				39CBFCC52C7B6DAF00EB122C /* ContactMapModel.swift in Sources */,
+				39CBFCC72C7B6DC500EB122C /* ContactMapController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
